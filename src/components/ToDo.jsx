@@ -8,8 +8,8 @@ const ToDo = ({text, onButtonClick, id}) => {
         <li>
             <Link to={`/${id}`}>
                 {text}
-                <button onClick={onButtonClick}>DEL</button>
             </Link>
+            <button onClick={onButtonClick}>DEL</button>
         </li>
     )
 }
